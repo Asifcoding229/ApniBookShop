@@ -72,6 +72,12 @@ ul {
     list-style: disc inside;
     margin-left: 20px;
 }
+@media (max-width: 768px) {
+  /* Adjust styles for mobile */
+  body {
+    font-size: 14px;
+  }
+}
 
 footer {
     text-align: center;
