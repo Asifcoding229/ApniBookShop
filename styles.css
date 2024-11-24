@@ -88,7 +88,7 @@ ul {
 @media (max-width: 768px) {
   /* Adjust styles for mobile */
   body {
-    font-size: 14px;
+    font-size: 10px;
   }
 }
 
