@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Contact Us</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">     Home</a></li>
+                    <li><a href="army-tests.html">Army Tests</a></li>
+                    <li><a href="mdcat.html">     MDCAT</a></li>
+                    <li><a href="amc.html">       AMC</a></li>
+                    <li><a href="net.html">       NET</a></li>
+                    <li><a href="sat.html">       SAT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="contact-form">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Free Test Resources. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
