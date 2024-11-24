@@ -16,7 +16,13 @@ header {
     border-bottom: 5px solid #0056b3;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
+.contact-us {
+  position: relative;
+  width: 100%; /* Ensure it doesn't exceed screen width */
+  height: auto; /* Let it resize naturally */
+  padding: 1rem; /* Add consistent spacing */
+  box-sizing: border-box; /* Include padding in width calculations */
+}
 header h1 {
     margin: 0;
     font-size: 36px;
