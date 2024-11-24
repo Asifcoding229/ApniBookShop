@@ -76,7 +76,29 @@ p {
   box-sizing: border-box; /* Ensure padding doesn't add extra width */
   background-color: #f4f4f4; /* Adjust color as needed */
 }
+.contact-us p {
+   font-family: 'Georgia', serif;
+   font-size: 18px;
+   line-height: 1.8;
+   color: #444;
+   background-color: #f4f4f4;
+   padding: 20px;
+   border: 2px solid #ddd;
+   border-radius: 10px;
+   text-align: center;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+   width: 80%;  /* Set default width */
+   margin: 0 auto; /* Center align */
+}
 
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+   .contact-us p {
+     width: 100%;  /* Make full width on mobile */
+     padding: 15px;
+     font-size: 16px;
+   }
+}
 @media (max-width: 768px) {
   .contact-us {
     padding: 0.5rem; /* Adjust padding for smaller screens */
