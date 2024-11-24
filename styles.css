@@ -62,7 +62,20 @@ p {
     max-width: 800px;
     text-align: justify;
 }
+.contact-us {
+  position: relative;
+  width: 100%; /* Fit within screen */
+  height: auto; /* Adjust height dynamically */
+  padding: 1rem;
+  box-sizing: border-box; /* Ensure padding doesn't add extra width */
+  background-color: #f4f4f4; /* Adjust color as needed */
+}
 
+@media (max-width: 768px) {
+  .contact-us {
+    padding: 0.5rem; /* Adjust padding for smaller screens */
+  }
+}
 p:hover {
     background-color: #f1f1f1;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
